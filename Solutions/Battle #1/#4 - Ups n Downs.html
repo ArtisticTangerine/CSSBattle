@@ -1,0 +1,37 @@
+<div class="container">
+  <div class="a"></div>
+  <div class="b"></div>
+  <div class="c"></div>
+</div>
+<style>
+  body {
+    background: #62306D;
+    margin: 0;
+  }
+  .container {
+    display: grid;
+grid-template-columns: repeat(3, 100px );
+  grid-template-rows: repeat(2, 100px);
+    justify-content: center;
+  margin-top: 50px;
+  }
+  .a {
+    border-radius: 0 0 50% 50%;
+     grid-column: 1 / 2;
+   grid-row: 2 / 4;
+    background: #F7EC7D;
+  }
+  .b {
+    border-radius: 50% 50% 0 0;
+      grid-column: 2 / 3;
+   grid-row: 1 / 2;
+    background: #F7EC7D;
+  }
+  .c  {
+    border-radius: 0 0 50% 50%;
+     grid-column: 4 / 3;
+   grid-row: 2 / 4;
+    background: #F7EC7D;
+  }
+</style>
+
