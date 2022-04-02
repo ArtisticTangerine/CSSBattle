@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="a"></div>
+  <div class="b"></div>
+  <div class="c"></div>
+</div>
+<style>
+  *{background:#E3516E;margin:0}
+  .container{
+        display: grid;
+    grid-template-columns: repeat(2, 100px );
+  grid-template-rows: repeat(2, 100px);
+    justify-content: center;
+  margin-top: 50px
+  }
+ .a {
+    border-radius: 100% 0 0 0;
+    height: 100px;
+    background: #51B5A9
+  }
+  .b {
+    border-radius: 0 100% 0 0;
+    height: 100px;
+    background: #FADE8B;
+  }
+  .c {
+       border-radius: 0 0 0 100%;
+    height: 100px;
+    background: #F7F3D7
+  }
+</style>
