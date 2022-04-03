@@ -1,0 +1,34 @@
+<div class=container>
+  <div class="circle"></div>
+  <div class="elipse"><div>
+</div>
+<style>
+  *{margin: 0}
+  .container {
+  height: 300px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0B2429;
+    
+  }
+  .circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #0B2429;
+    box-shadow: 0 0 0 45px #F3AC3C, 0 0 0 65px #0B2429;
+    z-index: 1;
+    transform: translate(100px);
+  }
+  .elipse {
+      height: 200px;
+    width: 200px;
+   border-radius:  0 50% 0 50%;
+    background: #998235;
+    transform: rotate(135deg);
+position: relative;
+    left: -25px;
+  } 
+</style>
