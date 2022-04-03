@@ -1,0 +1,46 @@
+<div class="cont">
+<div class="a"></div>
+  <div class="b"></div></div>
+<style>
+  *{margin: 0;}
+  .cont {
+  height: 300px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F2F2B6;
+  }
+  .a {
+  border-top: 130px solid #FD4602;
+  border-right: 75px solid transparent;
+  border-left: 75px solid transparent;
+  position: relative;
+  transform: translate(29px);
+  }
+  .a:after {
+  content: "";
+  position: absolute;
+  border-top: 130px solid #FF6D00;
+  border-right: 75px solid transparent;
+  border-left: 75px solid transparent;
+  top: -130px;
+  right: -56px;
+  }
+  .b {
+  border-bottom: 130px solid #FF6D00;
+  border-right: 75px solid transparent;
+  border-left: 75px solid transparent;
+  position: relative;
+  transform: translate(-9px);
+  }
+  .b:after{
+  content: "";
+  position: absolute;
+  border-bottom: 130px solid #FD4602;
+  border-right: 75px solid transparent;
+  border-left: 75px solid transparent;
+  top: 0;
+  left: -96px;
+  }
+</style>
