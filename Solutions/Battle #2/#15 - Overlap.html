@@ -1,0 +1,38 @@
+<div class="cont">
+<div class="a"></div>
+  <div class="c"></div>
+  <div class="b"></div></div>
+<style>
+  *{margin: 0;}
+  .cont {
+  height: 300px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #09042A;
+  }
+  .a {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #7B3F61;
+      position: relative;
+  transform: translate(65px);
+  }
+  .b {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #E78481;
+  transform: translate(-65px);
+  }
+  .c {
+    height: 80px;
+    width: 80px;
+   border-radius: 95% 0;
+    transform: rotate(-45deg);
+    background: #09042A;
+    z-index: 1;
+  }
+</style>
