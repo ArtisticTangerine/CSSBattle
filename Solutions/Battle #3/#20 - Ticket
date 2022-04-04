@@ -1,0 +1,69 @@
+<div class="a"></div>
+<div class="b"></div>
+<div class="circle"></div>
+<div class="circleTwo"></div>
+<div class="bigCircle"></div>
+<style>
+  body{background: #62306D; margin: 0}
+  .a {
+    width: 140px;
+    height: 100px;
+    background: #F7EC7D;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+  }
+  .b {
+    width: 60px;
+    height: 100px;
+    background: #E38F66;
+    position: absolute;
+    top: 100px;
+    left: 240px;
+  }
+  .circle, .circle:after, .circle:before {
+    width: 20px;
+    height: 20px;
+    background: #62306D;
+    border-radius: 50%;
+    position: absolute;
+    content: '';
+    top: 90px;
+    left: 230px;
+  }
+  .circle:after {
+      top: 100px;
+    left: 0px;
+  }
+  .circle:before {
+     top: -5px;
+    left: 50px;
+    width: 35px;
+    height: 35px;
+  }
+  .bigCircle {
+    width: 35px;
+    height: 35px;
+    background: #62306D;
+    border-radius: 50%;
+    position: absolute;
+    top: 180px;
+    left: 85px;
+  }
+  .bigCircle:before, .bigCircle:after {
+     content: '';
+    position: absolute;
+     width: 35px;
+    height: 35px;
+    background: #62306D;
+    border-radius: 50%;
+  }
+  .bigCircle:before {
+    top: -95px;
+    left: 0px;
+  }
+  .bigCircle:after {
+    top: 0x;
+    left: 196px;    
+  }
+</style>
